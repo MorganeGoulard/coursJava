@@ -1,6 +1,4 @@
-import java.sql.SQLOutput;
-
-public class exo3 {
+public class Exo3 {
     public static void main(String[] args) {
 
         System.out.println("Saisir votre nom");

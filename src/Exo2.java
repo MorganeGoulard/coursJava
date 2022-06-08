@@ -1,4 +1,4 @@
-public class exo2 {
+public class Exo2 {
     public static void main(String[] args) {
 
         System.out.println("Donner une valeur au diamètre");
