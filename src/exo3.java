@@ -9,6 +9,7 @@ public class exo3 {
         String prenom="Pétunia";
         System.out.println("Saisir votre âge");
         byte age=26;
-        System.out.println("Vous vous appelez " +prenom+" "+nom+" et vous avez "+age+" ans.");
+        System.out.println("Vous vous appelez " +prenom+" "+nom+", et vous avez "+age+" ans.");
+
     }
 }
