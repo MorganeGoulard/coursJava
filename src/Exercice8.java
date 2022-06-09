@@ -17,7 +17,7 @@ public class Exercice8 {
         System.out.print("Saisir la valeur de c : ");
         int c=input.nextInt();
 
-        var delta=((b*b) - (4*a*c));
+        double delta=(Math.pow(b,2)-4*a*c);
         System.out.println("La valeur de delta est "+delta);
         if(delta>0){
             System.out.print("L'équation a 2 solutions possibles : x1="+((-b-(Math.sqrt(delta)))/(2*a))+
