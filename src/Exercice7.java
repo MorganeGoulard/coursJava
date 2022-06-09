@@ -10,6 +10,7 @@ public class Exercice7 {
         Scanner input=new Scanner(System.in);
         System.out.print("Entrez un nombre entier : ");
         int nombre=input.nextInt();
+
         var estPair=nombre%2==0;
 
         if(nombre>0){
@@ -20,7 +21,7 @@ public class Exercice7 {
             System.out.print("le nombre est nul");
         }
 
-        System.out.printf(" et est %s",estPair?" pair" : " impair");
+        System.out.printf(" et est%s",estPair?" pair" : " impair");
 
     }
 }
