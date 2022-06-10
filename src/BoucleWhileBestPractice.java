@@ -1,17 +1,19 @@
 import java.util.Scanner;
 
-public class BoucleWhile2 {
+public class BoucleWhileBestPractice {
     public static void main(String[] args) {
+
         var input=new Scanner(System.in);
         var codePIN="";
         System.out.println("Veuillez définir votre code pin à 4 chiffres : ");
-        while(codePIN.length()!=4){
+        while(true){
             System.out.print("Code PIN : ");
             codePIN=input.nextLine();
             if(codePIN.length()!=4){
                 System.out.println("Erreur! Code PIN doit être composé de 4 caractères");
             }else{
                 System.out.println("Code PIN défini avec succès!");
+                break;
             }
         }
 
@@ -22,11 +24,12 @@ public class BoucleWhile2 {
 
         String codeATester="";
 
-        while(!codeATester.equals(codePIN)){ // ici on utilise equals car c'est un String
+        while(true){ // ici on utilise equals car c'est un String
             System.out.print("Entrez votre code PIN pour déverouiller l'appareil: ");
             codeATester=input.nextLine();
             if(codeATester.equals(codePIN)){
                 System.out.println("Bienvenue!");
+                break;
             }else{
                 System.out.println("code PIN erroné, veuillez recommencer");
             }
