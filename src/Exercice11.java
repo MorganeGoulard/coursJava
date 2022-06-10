@@ -5,8 +5,8 @@ public class Exercice11 {
 
         var input=new Scanner(System.in);
         System.out.print("Saisir un nombre dont vous souhaitez la factorielle ");
-        short factorielle=input.nextShort();
-        int result=1;
+        int factorielle=input.nextInt();
+        long result=1;
 
         if(factorielle==0){
             System.out.println(result);
