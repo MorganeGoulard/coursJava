@@ -24,13 +24,14 @@ public class E13 {
         while(true) {
             if(i==0){
                 System.out.println("Vous avez saisi des mauvais identifiants 5 fois, compte bloqué");
+                break;
             }
             System.out.print("Entrer votre mail : ");
             mailATester = input.nextLine();
             System.out.print("Entrer votre mdp : ");
             mdpATester = input.nextLine();
             if (mailATester.equals(mail) & mdpATester.equals(mdp)) {
-                System.out.println("Bienvenue dans votre espace client !");
+                System.out.printf("Bienvenue dans votre espace client %s!",mail);
                 break;
             }
                 i--;

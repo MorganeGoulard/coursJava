@@ -23,8 +23,8 @@ public class E12 {
             mailATester = input.nextLine();
             System.out.print("Entrer votre mdp : ");
             mdpATester = input.nextLine();
-            if (mailATester.equals(mail) & mdpATester.equals(mdp)) {
-                System.out.println("Bienvenue dans votre espace client !");
+            if (mailATester.equals(mail) && mdpATester.equals(mdp)) {
+                System.out.printf("Bienvenue dans votre espace client %s!",mail);
                 break;
             }
             System.out.println("Identifiants incorrect");
