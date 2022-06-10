@@ -27,16 +27,17 @@ public class BoucleWhileBestPracticeSuite {
 
         String codeATester="";
 
-        while(true){ // ici on utilise equals car c'est un String
+        while(true) { // ici on utilise equals car c'est un String
             System.out.print("Entrez votre code PIN pour déverouiller l'appareil: ");
-            codeATester=input.nextLine();
-            if(codeATester.equals(codePIN)){
+            codeATester = input.nextLine();
+            if (codeATester.equals(codePIN)) {
                 System.out.println("Bienvenue!");
                 break;
-            }else{
-                System.out.println("code PIN erroné, veuillez recommencer");
             }
+            System.out.println("code PIN erroné, veuillez recommencer");
         }
+
+
 
     }
 }
