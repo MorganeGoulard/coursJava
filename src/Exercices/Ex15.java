@@ -57,8 +57,7 @@ public class Ex15 {
         }
 
         System.out.printf("Somme des multiples de 3 : %d", sum);
-
-
+        
         }
     }
 
