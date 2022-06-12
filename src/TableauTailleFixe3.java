@@ -3,7 +3,7 @@ import java.util.Scanner;
 public class TableauTailleFixe3 {
     public static void main(String[] args) {
         var input = new Scanner(System.in);
-        System.out.print("Combien de notes voulez-vous inserer?");
+        System.out.print("Combien de notes voulez-vous inserer? ");
         var notesAInserer = input.nextInt();//7
 
         float[] notesMath = new float[notesAInserer];
