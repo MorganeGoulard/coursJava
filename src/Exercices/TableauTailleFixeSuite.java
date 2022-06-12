@@ -22,5 +22,6 @@ public class TableauTailleFixeSuite {
         System.out.printf("Somme : %f\nMoyenne : %f",sumNotes,mean);
 
 
+
     }
 }
