@@ -14,9 +14,17 @@ public class Exo17 {
         System.out.print("Saisir votre texte : ");
         var chain=input.next();
         System.out.printf("Texte : %s\n",chain);
-        StringBuilder reverseChain=new StringBuilder(chain);
+        String reverseChain = " ";
+        for (int i = chain.length()-1; i >= 0; i--) {
+            reverseChain=reverseChain+chain.charAt(i);
+        }
+        System.out.println(reverseChain);
+
+
+        // méthode native
+        /*StringBuilder reverseChain=new StringBuilder(chain);
         chain=reverseChain.reverse().toString();
-        System.out.printf("Texte inversé : %s", chain);
+        System.out.printf("Texte inversé : %s", chain);*/
 
 
 
