@@ -30,7 +30,7 @@ public class Exo21 {
         while(true){
             var supprLangage=input.nextLine();
             var langage ="";
-            if (supprLangage.isBlank()){
+            if (supprLangage.isBlank()) && !langages.isEmpty(){
                 break;
             } else if (langages.remove(supprLangage)){
             langages.remove(supprLangage);

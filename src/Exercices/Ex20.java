@@ -20,6 +20,6 @@ public class Ex20 {
             sum=sum+(matrice[i][i])+(matrice[matrice.length-i-1][i]);
         }
 
-        System.out.printf("Somme de la diagonale = %d",sum);
+        System.out.printf("Somme des diagonales = %d",sum);
     }
 }
