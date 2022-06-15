@@ -1,4 +1,4 @@
-package exercice_poo;
+package exercice_poo_personne;
 
 public class Personne {
 

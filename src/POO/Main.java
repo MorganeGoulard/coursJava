@@ -57,5 +57,11 @@ public class Main {
         System.out.println("Périmètre : "+rectangle.calculPerimetre());
         System.out.println("Surface : "+rectangle.calculSurface());*/
 
+        Rectangle3 rect=new Rectangle3();
+        System.out.println(rect.getLongueur());
+        System.out.println(rect.getLargeur());
+
+        System.out.println(rect);
+
     }
 }

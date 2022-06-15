@@ -1,6 +1,5 @@
-package exercice_poo;
+package exercice_poo_personne;
 
-import java.sql.SQLOutput;
 import java.util.Scanner;
 
 public class Main {

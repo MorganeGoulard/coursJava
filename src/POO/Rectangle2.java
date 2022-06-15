@@ -1,5 +1,8 @@
 package POO;
 
+// Quand on ne fournit pas un constructeur,
+// le compilateur java invoque un constructeur spécial appelé
+// "Le constructeur par défaut par défaut"
 public class Rectangle2 {
     private double longueur;
     private double largeur;
