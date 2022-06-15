@@ -5,7 +5,8 @@ public class Main {
     // c'est à partir de là que le pg démarre.
     public static void main(String[] args) {
 
-        Rectangle rectangle= new Rectangle(); // création d'un objet rectangle depuis la classe Rectangle
+        /*BEFORE GETTER
+        Rectangle2 rectangle= new Rectangle2(); // création d'un objet rectangle depuis la classe Rectangle
         System.out.println("Etat initial de l'objet après création");
         System.out.println("La longueur : "+rectangle.longueur);
         System.out.println("La longueur : "+rectangle.largeur);
@@ -21,6 +22,40 @@ public class Main {
         System.out.println("Largeur : "+rectangle.largeur);
 
         System.out.println("Périmètre : "+rectangle.calculPerimetre());
-        System.out.println("Surface : "+rectangle.calculSurface());
+        System.out.println("Surface : "+rectangle.calculSurface()); */
+
+        // AFTER ADDING GETTERS AND SETTERS
+
+        /*Rectangle2 rectangle= new Rectangle2(); // création d'un objet rectangle depuis la classe Rectangle
+        System.out.println("Etat initial de l'objet après création");
+        System.out.println("La longueur : "+rectangle.getLongueur());
+        System.out.println("La largeur : "+rectangle.getLargeur());
+
+        System.out.println();
+        System.out.println("Etat de l'objet après avoir fourni des valeurs");
+        rectangle.setLongueur(500);
+        rectangle.setLargeur(350);
+        System.out.println("Longueur : "+rectangle.getLongueur());
+        System.out.println("Largeur : "+rectangle.getLargeur());
+
+        System.out.println("Périmètre : "+rectangle.calculPerimetre());
+        System.out.println("Surface : "+rectangle.calculSurface());*/
+
+        // Ajout d'un constructeur
+        Rectangle3 rectangle= new Rectangle3(500,350); // création d'un objet rectangle depuis la classe Rectangle
+        System.out.println("Etat initial de l'objet après création");
+        System.out.println("La longueur : "+rectangle.getLongueur());
+        System.out.println("La largeur : "+rectangle.getLargeur());
+
+        System.out.println();
+        System.out.println("Etat de l'objet après avoir fourni des valeurs");
+        /*rectangle.setLongueur(500);
+        rectangle.setLargeur(350);
+        System.out.println("Longueur : "+rectangle.getLongueur());
+        System.out.println("Largeur : "+rectangle.getLargeur());
+
+        System.out.println("Périmètre : "+rectangle.calculPerimetre());
+        System.out.println("Surface : "+rectangle.calculSurface());*/
+
     }
 }
