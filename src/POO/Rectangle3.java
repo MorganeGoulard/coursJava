@@ -9,6 +9,9 @@ public class Rectangle3 {
         this.longueur=longueur;
         this.largeur=largeur;
     }
+    // le constructeur est une méthode très spéciale
+    // (il ne va rien retourner, mais pas de void pour dire qu'on retourne rien)
+    // il permet d'initialiser un objet
     public double getLongueur(){ // convention pour lire longueur
         return longueur;
     }
