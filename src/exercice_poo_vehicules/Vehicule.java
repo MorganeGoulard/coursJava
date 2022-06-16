@@ -20,9 +20,6 @@ public abstract class Vehicule {
         return matricule;
     }
 
-    public void setMatricule(int matricule) {
-        this.matricule = matricule;
-    }
 
     public String getYear() {
         return year;
