@@ -6,7 +6,7 @@ public class Validator {
         return email.contains("@");
     }
 
-    public static boolean minMax(String str, byte min, byte max){
+    public static boolean minMax(String str, int min, int max){
         return str.length() >=min && str.length()<=max;
     }
 

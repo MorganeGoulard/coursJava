@@ -9,7 +9,7 @@ public class Main {
         System.out.println(Math.pow(3,2));
         System.out.println(Math.sqrt(625));
 
-        System.out.println("url de la base de données : "+Configuration.DATABASE_URL);
+        System.out.println("url de la base de données : "+AppConfig.DATABASE_URL);
 
         // simuler un formulaire
         Scanner input=new Scanner(System.in);
@@ -26,7 +26,7 @@ public class Main {
                 continue;
             }
 
-            if(!Validator.minMax(mdp,AppConfig.MIN_PASSEWORD,AppConfig.MAX_PASSEWORD){
+            if(!Validator.minMax(mdp,AppConfig.MIN_PASSEWORD,AppConfig.MAX_PASSEWORD)){
                 System.out.println("le mdp doit etre compris entre8 et 15 caractères");
             }
 
