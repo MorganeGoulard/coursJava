@@ -11,4 +11,4 @@ public class FinalClass extends ArrayList {
 
 }
 
-class MonString extends String{}
+

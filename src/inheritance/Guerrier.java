@@ -31,8 +31,5 @@ public class Guerrier extends Personnage{ // en java, héritage multiple n'exist
     // la méthode rencontrer() est devenue une méthode spécialisée
 
 
-    @Override
-    public void chanter() {
-        System.out.println("je peux chanter comme une guerrier");
-    }
+
 }
