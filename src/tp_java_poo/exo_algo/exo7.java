@@ -1,6 +1,7 @@
 package tp_java_poo.exo_algo;
 
-import java.util.Scanner;
+
+import java.util.Arrays;
 
 public class exo7 {
 
@@ -20,7 +21,7 @@ public class exo7 {
 
         char [] tabEx  = {'a', 'b', 'c', 'd', 'e'};
         System.out.println(Arrays.toString(tabEx));
-        System.out.println(majAlternee(tabEx));
+        System.out.println(Arrays.toString(tabEx));
 
 
         /* méthode triche
