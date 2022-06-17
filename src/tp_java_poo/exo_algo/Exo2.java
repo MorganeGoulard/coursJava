@@ -23,6 +23,5 @@ public class Exo2 {
             System.out.println("nombre inverse : -"+nombreInverse);
         }
 
-
     }
 }
