@@ -26,12 +26,12 @@ public class Exo3 {
             System.out.println("Les 2 chaines de caracteres ne sont pas des anagrammes");
         } else {
             for (int i = 0; i < str1.length(); i++) {
-                var caractere = str1.charAt(i);
+                var key = str1.charAt(i);
                 var occurence = 0;
-                if (hmStr1.get(caractere) == null) {
-                    hmStr1.put(caractere, 1);
+                if (hmStr1.get(key) == null) {
+                    hmStr1.put(key, 1);
                 } else {
-                    hmStr1.put(caractere, occurence);
+                    hmStr1.put(key, occurence);
                 }
             }
 
