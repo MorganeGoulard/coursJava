@@ -8,13 +8,21 @@ public class Exo2 {
         Scanner input = new Scanner(System.in);
         System.out.print("Saisir un nombre  : ");
         var nombre = input.nextInt();
+        var nombreAbs=Math.abs(nombre);
 
-        String nombreStr=String.valueOf(nombre);
+        String nombreStr=String.valueOf(nombreAbs);
         var nombreInverse="";
+
         for (int i = nombreStr.length()-1; i >=0 ; i--) {
             nombreInverse=nombreInverse+nombreStr.charAt(i);
         }
-        System.out.println("nombre inverse : "+nombreInverse);
+
+        if(nombre>=0){
+            System.out.println("nombre inverse : "+nombreInverse);
+        } else if (nombre<0) {
+            System.out.println("nombre inverse : -"+nombreInverse);
+        }
+
 
     }
 }
