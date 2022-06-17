@@ -11,7 +11,7 @@ public class HashMapIteration {
         identite.put("prenom","Christian");
         identite.put("pays","France");
 
-        for(Map.Entry<String,String> maVariable: identite.entrySet()){
+        for(Map.Entry maVariable: identite.entrySet()){
             System.out.println(maVariable.getKey()+" ==> "+maVariable.getValue());
         }
 
