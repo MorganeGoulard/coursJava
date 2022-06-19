@@ -1,4 +1,4 @@
-package tp_java_poo.exo_algo.exo12;
+package tp_validation_acquis.exo12;
 
 public class Main {
     public static void main(String[] args) {

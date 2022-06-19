@@ -1,4 +1,4 @@
-package tp_java_poo.exo_algo.exo11;
+package tp_validation_acquis.exo11;
 
 public class Auteur {
 

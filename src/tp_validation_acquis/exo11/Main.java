@@ -1,7 +1,4 @@
-package tp_java_poo.exo_algo.exo11;
-
-import java.util.ArrayList;
-import java.util.Arrays;
+package tp_validation_acquis.exo11;
 
 public class Main {
 

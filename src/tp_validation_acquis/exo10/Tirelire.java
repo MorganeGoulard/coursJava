@@ -1,4 +1,4 @@
-package tp_java_poo.exo_algo.exo10;
+package tp_validation_acquis.exo10;
 
 import org.w3c.dom.ls.LSOutput;
 
