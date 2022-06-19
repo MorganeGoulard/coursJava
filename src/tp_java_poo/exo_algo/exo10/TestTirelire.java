@@ -19,7 +19,7 @@ public class TestTirelire {
         maTirelire.afficher();
 
         maTirelire.vider();
-        System.out.println(maTirelire.afficher());
+        System.out.println(maTirelire.afficher());;
 
 
 

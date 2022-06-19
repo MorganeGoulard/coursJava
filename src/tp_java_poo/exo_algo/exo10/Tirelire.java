@@ -20,7 +20,7 @@ public class Tirelire {
         } else if (this.solde < 0) {
             System.out.println("vous êtes à découvert :'(");
         }
-        return "vous êtes sans le sou";
+        return "Vous êtes sans le sou.";
     }
 
     public void secouer(){
