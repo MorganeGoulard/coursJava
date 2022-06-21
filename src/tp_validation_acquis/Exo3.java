@@ -1,4 +1,4 @@
-package tp_java_poo.exo_algo;
+package tp_validation_acquis;
 
 import java.util.ArrayList;
 import java.util.HashMap;
